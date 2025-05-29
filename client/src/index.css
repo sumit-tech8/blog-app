@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+
+/*  Navbar css */
+.navbar{
+   font-family :'Poppins', sans-serif;
+   font-size: 17px;
+   line-height: 26px;
+   text-transform: uppercase;
+   box-shadow: 0 8px 6px -6px gray;
+   --webkit-box-shadow: 0;
+   border-bottom: solid gray !important;
+   background-color: rgb(93, 119, 93) !important;
+ }
+ 
+ .nav-link{
+   font-weight: 400 !important;
+   color:rgb(249, 246, 246) !important;
+ }
+  
+ .active{
+   border-bottom: 2px solid white;
+ }
+ 
+ .navbar-brand{
+   font-weight: 700;
+   font-family: 'roboto',sans-serif;
+   letter-spacing: 3px;
+   color:white !important;
+ }
+
+ /************************* Footer *************************/
+
+.footer{
+  color:white;
+  padding: 25px;
+  background-color: rgb(86, 118, 86);
+}
+ 
+ /* =================================
+======== page not found css ======= */
+.pnf {
+   display: flex;
+   min-height: 65vh;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .pnf-title {
+   font-size: 100px;
+   font-weight: 400;
+ }
+ 
+ .pnf-heading {
+   font-weight: normal;
+ }
+ 
+
+/******************** Add list footer *********/
+#top{
+  width: 70px;
+  height: 70px;
+  background-color: rgb(93, 119, 93);
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50px;
+  line-height: 60px;
+  position: fixed;
+  bottom: 80px;
+  right: 25px;
+}
+
+#top:hover{
+  box-shadow: rgb(141, 173, 156) 1px 1px 15px;
+}
+ 
+

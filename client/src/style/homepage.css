@@ -1,0 +1,118 @@
+/* body{
+    background-color: rgb(249, 247, 247);
+}
+.d-flex{
+    display: flex !important;
+    margin-top: 26px ;
+    margin-left: 30px ;
+}
+
+.card{
+    margin-bottom: 30px !important;
+    width: 22% !important;
+    background-color: white !important;
+    border-radius: 25px;
+    padding-left: 4px;
+    box-shadow: rgb(198, 195, 195) 1px 1px 15px;
+}
+
+.card .product-link{
+    color: blueviolet;
+}
+
+.card-title{
+    text-align: center;
+    padding: 2px;
+
+}
+
+.card-body{
+    color: rgb(65, 22, 22);
+}
+
+.delete{
+    color: brown;
+    margin: 20px ;
+} */
+
+
+body {
+    background-color: rgb(238, 243, 238);
+    margin: auto;
+}
+
+.d-flexs {
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 26px;
+    margin-left: 50px;
+}
+
+.card {
+    margin-bottom: 10px !important;
+    width: 80% !important;
+    min-height: 190px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    background-color: rgb(244, 248, 241);
+    border-radius: 25px;
+    padding-left: 4px;
+    box-shadow: rgb(198, 195, 195) 1px 1px 15px;
+}
+.card:hover{
+    transform: scale(1.005); 
+    box-shadow: rgb(128, 167, 141) 1px 1px 15px;
+}
+
+.card .product-link {
+    color: rgb(35, 87, 35);
+    padding: 5px;
+    background-color: rgb(212, 201, 201);
+    height: 20%;
+    margin: 5px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.card-title {
+    text-align: center;
+    padding: 2px;
+}
+
+.card-body {
+    color: rgb(65, 22, 22);
+    padding: 0 2% !important;
+    text-align: center;
+}
+
+.text-danger {
+    margin-top: 10px !important;
+    font-size: 28pt; 
+    cursor: pointer;
+}
+.text-success{
+    margin-top: 10px !important;
+    font-size: 28pt; 
+    cursor: pointer;
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+    .card {
+        width: 20% !important;
+        min-height: 120px !important;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 476px) {
+    .card {
+        width: 100% !important;
+        margin-left: 0;
+    }
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
